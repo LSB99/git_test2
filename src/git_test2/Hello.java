@@ -5,6 +5,8 @@ public class Hello {
     String message = "¾È³çÇÏ¼¼¿ä";
 
 	public String say() {
-        return message;
+		return message;
+	}       
 }
+	
 
