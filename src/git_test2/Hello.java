@@ -2,11 +2,21 @@ package git_test2;
 
 public class Hello {
     
-    String message = "æ»≥Á«œººø‰";
+    String message;
 
-	public String say() {
-		return message;
-	}       
+	public Hello() {
+		
+	}
+	
+	public Hello(String message) {
+		
+		this.message = message;
+	}
+	
+	public void say() {
+		
+		System.out.println(message);
+	}
 }
 	
 
